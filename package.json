@@ -1,0 +1,24 @@
+{
+  "name": "awesome-bookmarks-vite",
+  "version": "1.0.0",
+  "description": "VitePress Awesome Bookmarks",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs --open",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skingford/awesome-bookmarks-vite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skingford/awesome-bookmarks-vite/issues"
+  },
+  "homepage": "https://github.com/skingford/awesome-bookmarks-vite#readme",
+  "devDependencies": {
+    "vitepress": "^0.21.4"
+  }
+}
