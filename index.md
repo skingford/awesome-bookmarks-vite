@@ -20,5 +20,5 @@ features:
     details: 丰富的主题配置及黑暗主题适配
   - title: 🔑 权限管理
     details: 完善的前后端权限管理方案
-footer: MIT Licensed | Copyright © 2021-present Vben
+footer: MIT Licensed | Copyright © 2022-present AwesomeBookmarks
 ---

@@ -1,10 +1,14 @@
-# vue-vben-admin-doc
+<!--
+ * @Author: kingford
+ * @Date: 2022-01-11 17:36:32
+ * @LastEditTime: 2022-01-11 17:42:14
+-->
+
+# awesome-bookmarks
 
 ## 如何本地开发
 
 ```bash
-# 克隆本仓库
-$ git clone git@github.com:anncwb/vue-vben-admin-doc.git
 
 # 或者使用 yarn
 $ yarn install

@@ -4,13 +4,13 @@
  */
 module.exports = {
   base: '/doc-next/',
-  title: 'Vben Admin',
+  title: 'Awesome Bookmarks',
   lang: 'zh-CN',
-  description: '一个开箱即用的前端框架',
+  description: '个人收藏夹',
   head: createHead(),
   themeConfig: {
-    repo: 'anncwb/vue-vben-admin',
-    docsRepo: 'anncwb/vue-vben-admin-doc',
+    repo: 'skingford/awesome-bookmarks-vite',
+    docsRepo: 'skingford/awesome-bookmarks-vite',
     logo: '/logo.png',
     docsBranch: 'main',
     editLinks: true,
@@ -26,12 +26,12 @@ module.exports = {
 
 function createHead() {
   return [
-    ['meta', { name: 'author', content: 'Vbenjs Team' }],
+    ['meta', { name: 'author', content: 'kingford' }],
     [
       'meta',
       {
         name: 'keywords',
-        content: 'vben, vitejs, vite, ant-design-vue, vue',
+        content: 'front-end, vitejs, vite, vue',
       },
     ],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
@@ -53,6 +53,14 @@ function createHead() {
  */
 function createNav() {
   return [
+    {
+      text: '库',
+      link: '/repository/',
+    },
+    {
+      text: '网站',
+      link: '/website/',
+    },
     {
       text: '指南',
       link: '/guide/',
