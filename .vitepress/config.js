@@ -3,7 +3,7 @@
  * @type {import('vitepress').UserConfig}
  */
 module.exports = {
-  base: '/doc-next/',
+  base: '/', // 部署二级目录/doc-next/',
   title: 'Awesome Bookmarks',
   lang: 'zh-CN',
   description: '个人收藏夹',
