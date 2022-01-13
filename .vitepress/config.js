@@ -60,6 +60,16 @@ function createNav() {
     {
       text: '网站',
       link: '/website/',
+      items: [
+        {
+          text: '介绍',
+          link: '/website/introduction',
+        },
+        {
+          text: '工具',
+          link: '/website/tool',
+        },
+      ],
     },
     {
       text: '指南',
@@ -310,6 +320,26 @@ function createSidebar() {
           {
             text: 'Preview',
             link: '/components/functional/preview',
+          },
+        ],
+      },
+    ],
+    '/website/': [
+      {
+        text: '网站',
+        children: [
+          {
+            text: '介绍',
+            link: '/website/introduction',
+          },
+        ],
+      },
+      {
+        text: '工具',
+        children: [
+          {
+            text: 'Tool',
+            link: '/website/tool',
           },
         ],
       },
