@@ -61,7 +61,7 @@ function createNav() {
           link: 'https://v3.cn.vuejs.org/',
         },
         {
-          text: 'Reactjs',
+          text: 'React',
           link: 'https://zh-hans.reactjs.org/',
         },
       ],
@@ -85,24 +85,6 @@ function createNav() {
         {
           text: '工具',
           link: '/website/tool',
-        },
-      ],
-    },
-    {
-      text: '指南',
-      link: '/guide/',
-      items: [
-        {
-          text: '指南',
-          link: '/guide/introduction',
-        },
-        {
-          text: '深入',
-          link: '/dep/icon',
-        },
-        {
-          text: '其他',
-          link: '/other/faq',
         },
       ],
     },
@@ -144,107 +126,107 @@ function createSidebar() {
         ],
       },
     ],
-    '/': [
-      {
-        text: '指南',
-        children: [
-          {
-            text: '介绍',
-            link: '/guide/introduction',
-          },
-          {
-            text: '开始',
-            link: '/guide/',
-          },
-          {
-            text: '项目配置',
-            link: '/guide/settings',
-          },
-          {
-            text: '路由',
-            link: '/guide/router',
-          },
-          {
-            text: '菜单',
-            link: '/guide/menu',
-          },
-          {
-            text: '权限',
-            link: '/guide/auth',
-          },
-          {
-            text: 'Mock&联调',
-            link: '/guide/mock',
-          },
-          {
-            text: '组件注册',
-            link: '/guide/component',
-          },
-          {
-            text: '样式',
-            link: '/guide/design',
-          },
-          {
-            text: '外部模块',
-            link: '/guide/lib',
-          },
-          {
-            text: '构建&部署',
-            link: '/guide/deploy',
-          },
-          {
-            text: 'Electron',
-            link: '/guide/electron',
-          },
-        ],
-      },
-      {
-        text: '深入',
-        children: [
-          {
-            text: '跨域处理',
-            link: '/dep/cors',
-          },
-          {
-            text: '图标',
-            link: '/dep/icon',
-          },
-          {
-            text: '国际化',
-            link: '/dep/i18n',
-          },
-          {
-            text: '项目规范',
-            link: '/dep/lint',
-          },
-          {
-            text: '黑暗主题',
-            link: '/dep/dark',
-          },
-        ],
-      },
-      {
-        text: '其他',
-        children: [
-          {
-            text: '常见问题',
-            link: '/other/faq',
-          },
-          {
-            text: '常见疑点',
-            link: '/other/doubt',
-          },
-          {
-            text: '测试服务',
-            link: '/other/server',
-          },
-          {
-            text: '相关项目',
-            link: '/other/project',
-          },
-        ],
-      },
-    ],
+    // '/': [
+    //   {
+    //     text: '指南',
+    //     children: [
+    //       {
+    //         text: '介绍',
+    //         link: '/guide/introduction',
+    //       },
+    //       {
+    //         text: '开始',
+    //         link: '/guide/',
+    //       },
+    //       {
+    //         text: '项目配置',
+    //         link: '/guide/settings',
+    //       },
+    //       {
+    //         text: '路由',
+    //         link: '/guide/router',
+    //       },
+    //       {
+    //         text: '菜单',
+    //         link: '/guide/menu',
+    //       },
+    //       {
+    //         text: '权限',
+    //         link: '/guide/auth',
+    //       },
+    //       {
+    //         text: 'Mock&联调',
+    //         link: '/guide/mock',
+    //       },
+    //       {
+    //         text: '组件注册',
+    //         link: '/guide/component',
+    //       },
+    //       {
+    //         text: '样式',
+    //         link: '/guide/design',
+    //       },
+    //       {
+    //         text: '外部模块',
+    //         link: '/guide/lib',
+    //       },
+    //       {
+    //         text: '构建&部署',
+    //         link: '/guide/deploy',
+    //       },
+    //       {
+    //         text: 'Electron',
+    //         link: '/guide/electron',
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     text: '深入',
+    //     children: [
+    //       {
+    //         text: '跨域处理',
+    //         link: '/dep/cors',
+    //       },
+    //       {
+    //         text: '图标',
+    //         link: '/dep/icon',
+    //       },
+    //       {
+    //         text: '国际化',
+    //         link: '/dep/i18n',
+    //       },
+    //       {
+    //         text: '项目规范',
+    //         link: '/dep/lint',
+    //       },
+    //       {
+    //         text: '黑暗主题',
+    //         link: '/dep/dark',
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     text: '其他',
+    //     children: [
+    //       {
+    //         text: '常见问题',
+    //         link: '/other/faq',
+    //       },
+    //       {
+    //         text: '常见疑点',
+    //         link: '/other/doubt',
+    //       },
+    //       {
+    //         text: '测试服务',
+    //         link: '/other/server',
+    //       },
+    //       {
+    //         text: '相关项目',
+    //         link: '/other/project',
+    //       },
+    //     ],
+    //   },
+    // ],
   };
 }
 
