@@ -88,10 +88,10 @@ function createNav() {
         },
       ],
     },
-    {
-      text: '赞助',
-      link: '/other/donate',
-    },
+    // {
+    //   text: '赞助',
+    //   link: '/other/donate',
+    // },
   ];
 }
 
