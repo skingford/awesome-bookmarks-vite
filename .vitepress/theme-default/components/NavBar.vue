@@ -1,3 +1,8 @@
+<!--
+ * @Author: kingford
+ * @Date: 2022-01-11 17:36:32
+ * @LastEditTime: 2022-01-15 10:06:04
+-->
 <template>
   <header class="nav-bar">
     <ToggleSideBarButton @toggle="$emit('toggle')" />
@@ -17,7 +22,7 @@
       <div v-if="repo" class="item">
         <a
           class="nav-btn"
-          href="https://github.com/anncwb/vue-vben-admin"
+          href="https://github.com/skingford/awesome-bookmarks-vite"
           target="_blank"
           aria-label="View GitHub Repo"
         >
