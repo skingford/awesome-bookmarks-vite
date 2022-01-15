@@ -54,6 +54,19 @@ function createHead() {
 function createNav() {
   return [
     {
+      text: '文档链接',
+      items: [
+        {
+          text: 'Vue 3',
+          link: 'https://v3.cn.vuejs.org/',
+        },
+        {
+          text: 'Reactjs',
+          link: 'https://zh-hans.reactjs.org/',
+        },
+      ],
+    },
+    {
       text: '库',
       link: '/repository/',
     },
@@ -94,61 +107,6 @@ function createNav() {
       ],
     },
     {
-      text: '组件',
-      link: '/components/',
-      items: [
-        {
-          text: '介绍',
-          link: '/components/introduction',
-        },
-        {
-          text: '全局组件',
-          link: '/components/glob/button',
-        },
-        {
-          text: '常用组件',
-          link: '/components/basic',
-        },
-        {
-          text: '函数式组件',
-          link: '/components/functional/context-menu',
-        },
-      ],
-    },
-    {
-      text: '相关链接',
-      items: [
-        {
-          text: 'Discord Chat',
-          link: 'https://discord.gg/8GuAdwDhj6',
-        },
-        {
-          text: '完整版预览',
-          link: 'https://vvbin.cn/next',
-        },
-        {
-          text: '完整版源码',
-          link: 'https://github.com/anncwb/vue-vben-admin',
-        },
-        {
-          text: '精简版预览',
-          link: 'https://vvbin.cn/thin/next',
-        },
-        {
-          text: '精简版源码',
-          link: 'https://github.com/anncwb/vben-admin-thin-next',
-        },
-        {
-          text: '文档源码',
-          link: 'https://github.com/anncwb/vue-vben-admin-doc',
-        },
-        {
-          text: '更新日志',
-          link: 'https://github.com/anncwb/vue-vben-admin/blob/main/CHANGELOG.md',
-        },
-      ],
-    },
-    {
       text: '赞助',
       link: '/other/donate',
     },
@@ -157,177 +115,6 @@ function createNav() {
 
 function createSidebar() {
   return {
-    '/components/': [
-      {
-        text: '组件',
-        children: [
-          {
-            text: '前言',
-            link: '/components/introduction',
-          },
-        ],
-      },
-      {
-        text: '全局组件',
-        children: [
-          {
-            text: 'Button',
-            link: '/components/glob/button',
-          },
-        ],
-      },
-      {
-        text: '常用组件',
-        children: [
-          {
-            text: 'Basic',
-            link: '/components/basic',
-          },
-          {
-            text: 'Page',
-            link: '/components/page',
-          },
-          {
-            text: 'Icon',
-            link: '/components/icon',
-          },
-          {
-            text: 'Authority',
-            link: '/components/auth',
-          },
-          {
-            text: 'Form',
-            link: '/components/form',
-          },
-          {
-            text: 'Table',
-            link: '/components/table',
-          },
-          {
-            text: 'PopConfirmButton',
-            link: '/components/pop-confirm-button',
-          },
-          {
-            text: 'CollapseContainer',
-            link: '/components/collapse-container',
-          },
-          {
-            text: 'ScrollContainer',
-            link: '/components/scroll-container',
-          },
-          {
-            text: 'LazyContainer',
-            link: '/components/lazy-container',
-          },
-          {
-            text: 'CodeEditor',
-            link: '/components/code-editor',
-          },
-          {
-            text: 'JsonPreview',
-            link: '/components/json-preview',
-          },
-          {
-            text: 'CountDown',
-            link: '/components/count-down',
-          },
-
-          {
-            text: 'ClickOutSide',
-            link: '/components/click-out-side',
-          },
-          {
-            text: 'CountTo',
-            link: '/components/count-to',
-          },
-          {
-            text: 'Cropper',
-            link: '/components/cropper',
-          },
-          {
-            text: 'Description',
-            link: '/components/desc',
-          },
-          {
-            text: 'Drawer',
-            link: '/components/drawer',
-          },
-          {
-            text: 'Modal',
-            link: '/components/modal',
-          },
-          {
-            text: 'FlowChart',
-            link: '/components/flow-chart',
-          },
-          {
-            text: 'Upload',
-            link: '/components/upload',
-          },
-          {
-            text: 'Tree',
-            link: '/components/tree',
-          },
-          {
-            text: 'Excel',
-            link: '/components/excel',
-          },
-          {
-            text: 'Qrcode',
-            link: '/components/qrcode',
-          },
-          {
-            text: 'Markdown',
-            link: '/components/markdown',
-          },
-          {
-            text: 'Loading',
-            link: '/components/loading',
-          },
-          {
-            text: 'Tinymce',
-            link: '/components/tinymce',
-          },
-          {
-            text: 'Time',
-            link: '/components/time',
-          },
-          {
-            text: 'StrengthMeter',
-            link: '/components/strength-meter',
-          },
-          {
-            text: 'Verify',
-            link: '/components/verify',
-          },
-          {
-            text: 'Transition',
-            link: '/components/transition',
-          },
-          {
-            text: 'VirtualScroll',
-            link: '/components/virtual-scroll',
-          },
-        ],
-      },
-      {
-        text: '函数式组件',
-        children: [
-          {
-            text: 'ContextMenu',
-            link: '/components/functional/context-menu',
-          },
-          {
-            text: 'Loading',
-            link: '/components/functional/loading',
-          },
-          {
-            text: 'Preview',
-            link: '/components/functional/preview',
-          },
-        ],
-      },
-    ],
     '/website/': [
       {
         text: '网站',
