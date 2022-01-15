@@ -66,6 +66,10 @@ function createNav() {
           link: '/website/introduction',
         },
         {
+          text: '编程',
+          link: '/website/program',
+        },
+        {
           text: '工具',
           link: '/website/tool',
         },
@@ -335,10 +339,19 @@ function createSidebar() {
         ],
       },
       {
+        text: '编程',
+        children: [
+          {
+            text: '编程工具',
+            link: '/website/program',
+          },
+        ],
+      },
+      {
         text: '工具',
         children: [
           {
-            text: 'Tool',
+            text: '常用工具',
             link: '/website/tool',
           },
         ],
