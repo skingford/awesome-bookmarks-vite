@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # 推荐库
 
 **这里主要推荐一下自己平时常用，提高效率的一些库和软件。**
@@ -139,8 +135,7 @@ sidebar: auto
 - [**es-checker**](https://github.com/ruanyf/es-checker) 检查当前环境对 ES6 支持的情况。支持浏览器和 node.js
 - [**merge-images**](https://github.com/lukechilds/merge-images) 图片合成，利用`canvas`能将几张图片合成一张
 - [**fabric.js**](https://github.com/fabricjs/fabric.js) 基于 canvas 创建交互式的图片编辑界面非常适合用来做图片合成类工作。
-- [**phaser**](https://github.com/photonstorm/phaser) 这是一个为桌面和移动浏览器开发 HTML5 游戏的快速开源框架。
-  你可以为 iOS、 Android 和不同的本地应用程序创建游戏。
+- [**phaser**](https://github.com/photonstorm/phaser) 这是一个为桌面和移动浏览器开发 HTML5 游戏的快速开源框架。你可以为 iOS、 Android 和不同的本地应用程序创建游戏。
 - [**purifycss**](https://github.com/purifycss/purifycss) 移除没使用到的 css
 - [**dropcss**](https://github.com/leeoniya/dropcss) 同上
 - [**fast-cli**](https://github.com/sindresorhus/fast-cli) 命令行测试下载上传速度
@@ -256,8 +251,7 @@ sidebar: auto
 - [**WeChatPlugin-MacOS**](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) 一款功能强大的 macOS 版微信小助手
 - [**puppeteer-recorder**](https://github.com/checkly/puppeteer-recorder) 一个 chrome 插件 能够根据你的操作 自动生成 puppeteer 相关代码
 - [**mdx-deck**](https://github.com/jxnblk/mdx-deck) 用 markdown 编写演示文稿
-- [**code-surfer**](https://github.com/pomber/code-surfer) 基于 mdx-deck 的一个插件
-  让你更好的在文稿中展示 code
+- [**code-surfer**](https://github.com/pomber/code-surfer) 基于 mdx-deck 的一个插件让你更好的在文稿中展示 code
 - [**Progressive Tooling**](https://progressivetooling.com/) 前端性能优化工具集合
 - [**https://github.com/artf/grapesjs**](https://github.com/artf/grapesjs) 可视化建站工具 不需要写代码就能写一个页面，前端再次再次要下岗了
 - [**image-charts**](https://www.image-charts.com/) 该服务通过 URL 接受参数，然后生成图表，以图片形式返回
@@ -379,8 +373,7 @@ sidebar: auto
 - [**visbug**](https://github.com/GoogleChromeLabs/ProjectVisBug) 它可以帮助你改变 css，移动元素等等一系类强大的功能,页面调试神器。当然有些时候还是 DevTools 更好用
 - [**refined-github**](https://github.com/sindresorhus/refined-github) 优化 github 默认功能和样式的 chrome 插件
 - [**ADB**](https://chrome.google.com/webstore/detail/adb/dpngiggdglpdnjdoaefidgiigpemgage) chrome 真机调试安卓神器
-- [**Adblock Plus**](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
-  免费广告拦截程序 这个应该不用说了，装机必备
+- [**Adblock Plus**](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb) 免费广告拦截程序 这个应该不用说了，装机必备
 - [**Axure RP Extension**](https://chrome.google.com/webstore/detail/axure-rp-extension-for-ch/dogkpdfcklifaemcdfbildhcofnopogp) 看原型必备
 - [**JSON Formatter**](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) JSON 格式化 程序员必备
 - [**Lighthouse**](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) 谷歌出品，检查网页综合性能评分，分析不足
@@ -405,8 +398,7 @@ sidebar: auto
 
 ### 主题
 
-[**官方主题页**](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs) 可以选择自己喜欢的主题
-[**one-monokai**](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) 我用的是这个主题，很多年了
+[**官方主题页**](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs) 可以选择自己喜欢的主题 [**one-monokai**](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) 我用的是这个主题，很多年了
 
 ### 字体
 
@@ -441,8 +433,7 @@ sidebar: auto
 
 ## 有趣
 
-- [**the-bread-code**](https://github.com/hendricius/the-bread-code) 使用程序员的思维制作面包 ，比如制作中使用 A/B test,
-  来比较那种做法更好。
+- [**the-bread-code**](https://github.com/hendricius/the-bread-code) 使用程序员的思维制作面包 ，比如制作中使用 A/B test, 来比较那种做法更好。
 - [**build-your-own-x**](https://github.com/danistefanovic/build-your-own-x) 教你用各种语言实现 Bot Database Neural Network
 - [**javascript-algorithms **](https://github.com/trekhleb/javascript-algorithms) 教你用前端知识认识各种算法
 - [**not-paid**](https://github.com/kleampa/not-paid) 如果你给人做网站，交过去以后对方没有付款，那么这个 JS 会把网站的透明度一天调低一点，直到看不见

@@ -1,3 +1,8 @@
+/*
+ * @Author: kingford
+ * @Date: 2022-01-21 21:37:42
+ * @LastEditTime: 2022-01-21 21:57:36
+ */
 import { UserConfig } from 'vite';
 import WindiCSS from 'vite-plugin-windicss';
 import Icons, { ViteIconsResolver } from 'vite-plugin-icons';
