@@ -1,7 +1,7 @@
 <!--
  * @Author: kingford
  * @Date: 2022-01-13 09:06:25
- * @LastEditTime: 2022-01-21 22:18:12
+ * @LastEditTime: 2022-01-23 17:40:00
 -->
 
 # Tool
@@ -25,3 +25,7 @@
 ## mac
 
 - [**macbl**](https://www.macbl.com/) mac 软件免费下载
+
+## 其它
+
+- [**bypass**](https://www.bypass.cn/) 分流抢票
