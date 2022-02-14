@@ -54,31 +54,6 @@ function createHead() {
 function createNav() {
   return [
     {
-      text: 'web',
-      link: '/web/',
-    },
-    {
-      text: 'go',
-      link: '/go/',
-    },
-    {
-      text: 'python',
-      link: '/python/',
-    },
-    // {
-    //   text: '文档链接',
-    //   items: [
-    //     {
-    //       text: 'Vue 3',
-    //       link: 'https://v3.cn.vuejs.org/',
-    //     },
-    //     {
-    //       text: 'React',
-    //       link: 'https://zh-hans.reactjs.org/',
-    //     },
-    //   ],
-    // },
-    {
       text: '网站',
       link: '/website/',
       items: [
@@ -96,6 +71,19 @@ function createNav() {
         },
       ],
     },
+    {
+      text: 'Web',
+      link: '/web/',
+    },
+    {
+      text: 'GoLang',
+      link: '/go/',
+    },
+    {
+      text: 'Python',
+      link: '/python/',
+    },
+
     // {
     //   text: '赞助',
     //   link: '/other/donate',
